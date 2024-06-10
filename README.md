@@ -1,6 +1,6 @@
 # Memory Benchmark
 
-The `memory_benchmark` program is a multithreaded C application designed to measure the READ, WRITE, and CAS (Compare-And-Swap) throughput of memory. It calculates how many millions of operations can be performed per second. The program allows for setting the number of threads and runtime via command-line parameters, and each thread is bound to a separate CPU core. Sequential and random accesses can be tested separately.
+The `memory_benchmark` program is a multithreaded C application designed to measure the READ, WRITE, and CAS (Compare-And-Swap) throughput of memory. It calculates how many millions of operations can be performed per second. The program allows for setting the number of threads and runtime via command-line parameters, and each thread is bound to a distinct CPU core. Sequential and random accesses can be tested separately.
 
 ## Requirements
 
